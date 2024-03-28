@@ -2,6 +2,7 @@ const EntitySchema = require("typeorm").EntitySchema;
 
 const CategoryEntity = new EntitySchema({
   name: "Category",
+  target: "Category",
 
   columns: {
     id: {

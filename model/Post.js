@@ -16,7 +16,7 @@ const PostEntity = new EntitySchema({
       type: "text",
     },
   },
-  relation: {
+  relations: {
     categories: {
       target: "Category",
       type: "many-to-many",
